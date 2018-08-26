@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Tes Materialize</title>
+</head>
+<body>
+    
+    <!-- Dropdown Trigger -->
+    <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Klik Sini!</a>
+
+    <!-- Dropdown Structure -->
+    <ul id='dropdown1' class='dropdown-content' style="width:900px">
+        <li><a href="#">Opsi A</a></li>
+        <li><a href="#">Opsi B</a></li>
+        <li><a href="#">Opsi C</a></li>
+    </ul>
+
+    <script type="text/javascript" src="js/jqueryku.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.dropdown-trigger').dropdown();
+        });
+    </script>
+</body>
+</html>

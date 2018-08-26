@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Tes Materialize</title>
+</head>
+<body>
+
+  <div class="input-field col s12">
+    <select>
+      <option value="" disabled selected>Apa makanan kesukaanmu?</option>
+      <option value="1">Nasi Uduk</option>
+      <option value="2">Kue Putu</option>
+      <option value="3">Lontong Sayur</option>
+    </select>
+    <label>Materialize Select</label>
+  </div>
+
+  <br><br>
+  
+  <div class="input-field col s12">
+    <select multiple>
+      <option value="" disabled selected>Apa minuman kesukaanmu?</option>
+      <option value="1">Jamu Beras Kencur</option>
+      <option value="2">Kolak Pisang</option>
+      <option value="3">Jus Alpukat</option>
+    </select>
+    <label>Materialize Multiple Select</label>
+  </div>
+
+  <br><br>
+
+  <div class="input-field col s12">
+    <select>
+      <optgroup label="Martabak Telur">
+        <option value="1">Martabak Telur Ayam</option>
+        <option value="2">Martabak Telur Bebek</option>
+      </optgroup>
+      <optgroup label="Martabak Manis">
+        <option value="3">Martabak Manis Coklat</option>
+        <option value="4">Martabak Manis Kacang</option>
+      </optgroup>
+    </select>
+    <label>Option Groups</label>
+  </div>
+
+  <br><br>
+  
+  <div class="input-field col s12 m6">
+    <select class="icons">
+      <option value="" disabled selected>Pilih karakter favoritmu!</option>
+      <option value="" data-icon="img/Kaptang.png">Captain Lintang</option>
+      <option value="" data-icon="img/Narutang.png">Uzumaki Narutang</option>
+      <option value="" data-icon="img/Poketang.png">Poketang</option>
+    </select>
+    <label>Select with Images</label>
+  </div>
+
+  <br><br>
+
+  <label>Browser Select</label>
+    <select class="browser-default">
+      <option value="" disabled selected>Apa warna favoritmu?</option>
+      <option value="1">Merah</option>
+      <option value="2">Kuning</option>
+      <option value="3">Hijau</option>
+    </select>
+
+  <script type="text/javascript" src="js/jqueryku.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  
+  <script>
+    $(document).ready(function(){
+      $('select').formSelect();
+    });
+  </script>
+
+</body>
+</html>
