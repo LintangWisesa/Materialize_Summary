@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Tes Materialize</title>
+</head>
+<body>
+    
+  <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Klik Sini!</a>
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Ini Judul Modal</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quasi eum placeat nostrum. Eum est natus molestias quibusdam consequuntur repellendus, impedit, perspiciatis neque consequatur pariatur facilis nemo ullam unde excepturi!</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-light red white-text btn-flat">
+        Tutup
+      </a>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/jqueryku.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $(document).ready(function(){
+      $('.modal').modal();
+    });
+  });
+  </script>
+</body>
+</html>
