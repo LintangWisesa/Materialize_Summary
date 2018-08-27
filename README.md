@@ -1,6 +1,8 @@
 
 ![Lintang_Purwadhika](https://jonathankablan.github.io/images/materialize.png)
 
+### Materialize ([https://materializecss.com](https://materializecss.com/)) is a modern responsive CSS framework based on Material Design by Google. Material Design is a design language that combines the classic principles of successful design along with innovation and technology. Google's goal is to develop a system of design that allows for a unified user experience across all their products on any platform.
+
 # Summary of Materialize's Components
 
 1. Container
