@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Tes Materialize</title>
+</head>
+<body>
+   
+   <!-- navbar 1 -->
+   <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Logoku</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Galeri</a></li>
+        <li><a href="#">Tentang</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <br><br>
+
+  <!-- navbar 2 -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo right">Logoku</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Galeri</a></li>
+        <li><a href="#">Tentang</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <br><br>
+
+  <!-- search bar -->
+  <nav>
+    <div class="nav-wrapper">
+      <form>
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label class="label-icon" for="search">
+            <i class="material-icons">search</i>
+          </label>
+          <i class="material-icons">close</i>
+        </div>
+      </form>
+    </div>
+  </nav>
+
+  <br><br>
+
+  <!-- mobile navbar -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logoku</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Galeri</a></li>
+        <li><a href="#">Tentang</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Galeri</a></li>
+    <li><a href="#">Tentang</a></li>
+  </ul>
+
+    <script type="text/javascript" src="js/jqueryku.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      });
+    </script>
+</body>
+</html>

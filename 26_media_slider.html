@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Tes Materialize</title>
+</head>
+<body>
+    
+    <div class="slider">
+        <!-- untuk mode fullscreen slider, gunakan:
+        <div class="slider fullscreen"> -->
+    <ul class="slides">
+        <li>
+            <img src="img/Kaptang.png">
+            <div class="caption center-align">
+                <h3>Captain Lintang</h3>
+                <h5 class="light grey-text text-lighten-3">
+                    Pembela kebenaran & keadilan!
+                </h5>
+            </div>
+            </li>
+        <li>
+            <img src="img/Narutang.png">
+            <div class="caption left-align">
+                <h3>Uzumaki Narutang</h3>
+                <h5 class="light grey-text text-lighten-3">
+                    Ninja pembasmi kejahatan!
+                </h5>
+            </div>
+        </li>
+        <li>
+            <img src="img/Tangor.png">
+            <div class="caption right-align">
+                <h3>Tangor</h3>
+                <h5 class="light grey-text text-lighten-3">
+                    Pangeran Petir dari Asgard!    
+                </h5>
+            </div>
+        </li>
+    </ul>
+    </div>
+
+    <script type="text/javascript" src="js/jqueryku.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(document).ready(function(){
+            $('.slider').slider();
+        });
+    });
+    </script>
+</body>
+</html>

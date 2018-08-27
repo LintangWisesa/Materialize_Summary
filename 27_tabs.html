@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Tes Materialize</title>
+</head>
+<body>
+
+    <div class="row">
+        <div class="col s12">
+            <ul class="tabs">
+            <li class="tab col s3"><a href="#test1">Tab Satu</a></li>
+            <li class="tab col s3"><a class="active" href="#test2">Tab Dua</a></li>
+            <li class="tab col s3 disabled"><a href="#test3">Tab Tiga Non-Aktif</a></li>
+            <li class="tab col s3"><a href="#test4">Tab Empat</a></li>
+            </ul>
+        </div>
+        <div id="test1" class="col s12">
+            <h1>Tab Satu</h1>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quaerat dolorum! Officiis necessitatibus neque quam distinctio tenetur impedit nisi, obcaecati, odit quod unde non labore suscipit hic beatae optio atque?
+            </p>
+        </div>
+        <div id="test2" class="col s12">
+            <h1>Tab Dua</h1>
+            <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus corporis eligendi ipsam reiciendis nisi optio animi, sequi, quis velit asperiores in, necessitatibus deleniti. Obcaecati expedita quaerat eius ipsum delectus explicabo?
+            </p>
+        </div>
+        <div id="test3" class="col s12">
+            <h1>Tab Tiga</h1>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur rem harum laboriosam dolorum ipsam odit rerum iste, ex quam eius neque aut quasi obcaecati facere! A tempora hic quae.
+            </p>
+        </div>
+        <div id="test4" class="col s12">
+            <h1>Tab Empat</h1>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus atque, tenetur, dignissimos culpa inventore ab ipsum consequatur saepe velit vero perspiciatis. Ad alias veritatis iusto molestiae odio? Esse, perspiciatis quo!
+            </p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/jqueryku.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(document).ready(function(){
+            $('.tabs').tabs();
+        });
+    });
+    </script>
+</body>
+</html>
